@@ -6,7 +6,7 @@ import GamePLay from './components/GamePLay'
 
 const App = () => {
 
-  const [isGameStarted,setIsGameStarted]=useState(true)
+  const [isGameStarted,setIsGameStarted]=useState(false)
 
   const toggleGamePLay=()=>{
     setIsGameStarted(!isGameStarted);
